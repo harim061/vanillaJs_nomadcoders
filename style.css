@@ -1,0 +1,27 @@
+.active{
+    color : coral;
+}
+
+.hidden{
+    display: none;
+}
+@font-face {
+    font-family: 'Magilio';
+    src: url("./MagilioRegular-Yzv2O.ttf");
+}
+* {
+    font-family: 'Magilio';
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+
+}
+
+*::placeholder{
+    color:white;
+}
+
+button{
+    background:none;
+    border: none;
+}
